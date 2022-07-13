@@ -1,0 +1,112 @@
+.container {
+  padding: 0 4vw;
+}
+
+.region {
+  display: flex;
+  align-items: center;
+
+  svg {
+    font-size: 1rem;
+  }
+
+  &-label {
+    margin: 0 0.25rem;
+  }
+}
+
+.text-yellow {
+  color: $yellow;
+}
+
+.btn {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 1px;
+  padding: 1.2rem;
+}
+
+.btn-primary {
+  background: $purple-700;
+  color: $white;
+  border-color: $purple-700;
+}
+
+.btn-outline {
+  border-color: $purple-700;
+  padding: 19px 40px 20px;
+}
+
+.btn-link {
+  display: block;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: $blue-700;
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+
+  svg {
+    margin-left: 0.5rem;
+  }
+}
+
+.btn-white {
+  border: none;
+  background: $white;
+  color: $purple-700;
+  padding: 19px 40px 20px;
+}
+
+.btn-g {
+  border: none;
+  background: $blue-500;
+  color: $white;
+  position: relative;
+}
+
+.icon-w {
+  background: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0.25rem;
+  left: 0.25rem;
+  bottom: 0.25rem;
+  width: 3.0625rem;
+  height: 3.0625rem;
+  border-radius: 0.25rem;
+
+  svg {
+    font-size: 1.5rem;
+  }
+}
+
+.download-link {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: $blue-700;
+  padding: 1rem 0;
+
+  svg {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-right: 0.25rem;
+  }
+}
+
+.ms-1 {
+  margin-left: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
